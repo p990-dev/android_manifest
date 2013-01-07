@@ -44,7 +44,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/lge/p990" name="tonypp/android_device_lge_p990" revision="tony_pacm" />
-  <project path="device/lge/star-common" name="tonypp/android_device_lge_star-common" revision="jb-412" />
+  <project path="device/lge/star-common" name="tonypp/android_device_lge_star-common" revision="tony_pacm" />
   <project path="vendor/lge" name="pengus77/proprietary_vendor_lge.git" revision="jb-412" />  
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
@@ -340,7 +340,7 @@
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="tonypp/android_vendor_cm" revision="tony_pacm"/>
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/pa" name="tonypp/android_vendor_pa" revision="tony_pacm" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
