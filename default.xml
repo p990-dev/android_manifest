@@ -45,7 +45,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/lge/p990" name="tonypp/android_device_lge_p990" revision="tony_pacm" />
   <project path="device/lge/star-common" name="tonypp/android_device_lge_star-common" revision="tony_pacm" />
-  <project path="vendor/lge" name="pengus77/proprietary_vendor_lge.git" revision="jb-412" />  
+  <project path="vendor/lge" name="tonypp/proprietary_vendor_lge.git" revision="tony_pacm" />  
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
