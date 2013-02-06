@@ -347,4 +347,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi-linaro-4.7" name="skelliam/android-toolchain-eabi-linaro-4.7" revision="4.7-2013.01" />
+  <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi-linaro-4.6.2" name="skelliam/android_prebuilt_linux-x86_toolchain_linaro-4.6" revision="master" />
+ 
 </manifest>
