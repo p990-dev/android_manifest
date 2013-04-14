@@ -11,19 +11,16 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="gitorious"
-           fetch="git://gitorious.org" />
-
   <default revision="refs/tags/cm-10.1-M3"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android-bluez/platform_build" remote="gitorious" revision="cm-10.1-bluez">
+  <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="tonypp/android-manifest" remote="private" revision="cm-10.1-bluez-newbl" />
+  <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -32,7 +29,7 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/common" name="android-bluez/android_device_common"  remote="gitorious" revision="cm-10.1-bluez" />
+  <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
@@ -217,7 +214,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="android-bluez/android_frameworks_base" remote="gitorious" revision="cm-10.1-bluez" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -271,7 +268,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android-bluez/android_packages_apps_Bluetooth" remote="gitorious" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -298,11 +295,11 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="android-bluez/android_packages_apps_Phone" remote="gitorious" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android-bluez/android_packages_apps_Settings" remote="gitorious" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -377,13 +374,4 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-
-  <project path="external/bluetooth/bluez" name="android-bluez/external_bluetooth_bluez" remote="gitorious" revision="master" />
-  <project path="external/bluetooth/glib" name="android-bluez/external_bluetooth_glib" remote="gitorious" revision="master"/>
-  <project path="external/bluetooth/hcidump" name="android-bluez/external_bluetooth_hcidump" remote="gitorious" revision="master"/>
-
-  <project path="device/lge/p990" name="tonypp/android_device_lge_p990" revision="cm10.1-bluez-newbl" />
-  <project path="device/lge/star-common" name="tonypp/android_device_lge_star-common" revision="cm10.1-newbl-dev" />
-  <project path="vendor/lge" name="tonypp/proprietary_vendor_lge.git" revision="tony_pacm" />
-  <project path="kernel/lge/star" name="tonypp/private-penguin-party" remote="private" revision="exp" />
 </manifest>
