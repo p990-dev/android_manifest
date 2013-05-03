@@ -386,6 +386,5 @@
   <project path="kernel/lge/star" name="tonypp/private-penguin-party" remote="private" revision="exp" />
 
   <project path="packages/apps/GooUpdater" name="BeerGang/GooUpdater" remote="github" revision="master" />
-  <project path="packages/apps/ZipInstaller" name="tonypp/com_beerbong_zipinst" revision="v3"/>
   <project path="vendor/google" name="tonypp/android_vendor_google" revision="cm-10.1" />
 </manifest>
