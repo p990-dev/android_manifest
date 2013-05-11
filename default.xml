@@ -388,6 +388,4 @@
 
   <project path="packages/apps/GooUpdater" name="BeerGang/GooUpdater" remote="github" revision="master" />
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-10.1" />
-  <project path="packages/apps/PrivacyManagerSettings" name="ljakob/CyanogenModPrivacyManager-PrivacyManagerSettings" remote="github" revision="master" />
-  <project path="packages/apps/PrivacyManagerImpl" name="ljakob/CyanogenModPrivacyManager-PrivacyManagerImpl" remote="github" revision="master" />
 </manifest>
