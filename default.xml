@@ -12,23 +12,23 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/cm-10.1.0-RC2"
+  <default revision="refs/tags/cm-10.1.0-RC4"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="tonyp/android_build" revision="cm-10.1-bluez">
+  <project path="build" name="tonyp/android_build" revision="cm-10.1-bluez-dev">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="tonyp/android_manifest" remote="private" revision="cm-10.1-bluez-oldbl" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="tonyp/android_bionic" revision="cm-10.1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
+  <project path="dalvik" name="tonyp/android_dalvik" revision="cm-10.1" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="p990-dev/android_device_common" revision="cm-10.1-bluez" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
@@ -184,7 +184,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/skia" name="tonyp/android_external_skia" revision="cm-10.1" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
