@@ -382,7 +382,7 @@
   <project path="external/bluetooth/hcidump" name="p990-dev/android_external_bluetooth_hcidump" revision="cm-10.1-bluez"/>
 
   <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.1-bluez-newbl" />
-  <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.1-bluez-newbl" />
+  <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.1-bluez-newbl-dev" />
   <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="tony_pacm" />
   <project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />
 
