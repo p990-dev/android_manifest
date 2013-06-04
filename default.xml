@@ -13,7 +13,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="bitbucket" 
-           fetch="https://bitbucket.org/" />  
+           fetch="https://bitbucket.org" />  
 
   <default revision="refs/tags/cm-10.1.0-RC4"
            remote="github"
