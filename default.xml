@@ -373,7 +373,7 @@
   <project path="system/core" name="androidarmv6/android_system_core" revision="cm-10.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="tonyp/android_system_netd" revision="rootbeer" />
+  <project path="system/netd" name="tonyp/android_system_netd" revision="tony_rom" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
