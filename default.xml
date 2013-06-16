@@ -20,11 +20,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="tonyp/android_build" revision="cm-10.1-bluez-dev">
+  <project path="build" name="tonyp/android_build" revision="tony_rom>
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="tonyp/android_manifest" remote="private" revision="cm-10.1-bluez-newbl" />
+  <project path="android" name="tonyp/android_manifest" remote="private" revision="cm-10.1-bluedroid" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="tonyp/android_bionic" revision="cm-10.1" />
@@ -33,7 +33,7 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="dalvik" name="tonyp/android_dalvik" revision="cm-10.1" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/common" name="p990-dev/android_device_common" revision="cm-10.1-bluez" />
+  <project path="device/common" name="CyanogenMod/android_device_common" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
@@ -59,7 +59,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <!--<project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />-->
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -219,7 +219,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="cm-10.1-bluez-dev" />
+  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="cm-10.1-bluedroid" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -273,7 +273,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="tonyp/android_packages_apps_Bluetooth" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -300,11 +300,11 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="tonyp/android_packages_apps_Phone" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Phone" name="tonyp/android_packages_apps_Phone" revision="tony_rom" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="cm-10.1-bluedroid" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -365,7 +365,7 @@
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="tonyp/android_system_core" revision="cm-10.1-bluez" />
+  <project path="system/core" name="CyanogenMod/android_system_core" revision="cm-10.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="tonyp/android_system_netd" revision="rootbeer" />
@@ -380,16 +380,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="external/bluetooth/bluez" name="p990-dev/android_external_bluetooth_bluez" revision="cm-10.1-bluez" />
-  <project path="external/bluetooth/glib" name="p990-dev/android_external_bluetooth_glib" revision="cm-10.1-bluez"/>
-  <project path="external/bluetooth/hcidump" name="p990-dev/android_external_bluetooth_hcidump" revision="cm-10.1-bluez"/>
-
   <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.1-bluez-newbl" />
-  <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.1-bluez-newbl-dev" />
+  <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.1-bluedroid" />
   <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="tony_pacm" />
-  <project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />
 
-  <project path="packages/apps/GooUpdater" name="BeerGang/GooUpdater" remote="github" revision="master" />
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-10.1" />
 
   <!-- GCC 4.7 -->
