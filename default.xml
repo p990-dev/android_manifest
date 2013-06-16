@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="tonyp/android_build" revision="tony_rom">
+  <project path="build" name="tonyp/android_build" revision="cm-10.1-bluedroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
