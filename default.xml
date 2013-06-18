@@ -382,7 +382,7 @@
 
   <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.1-bluez-newbl" />
   <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.1-bluedroid" />
-  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="tony_pacm" />
+  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="cm-10.1" />
 
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-10.1" />
 
