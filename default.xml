@@ -20,11 +20,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="tonyp/android_build" revision="cm-10.1-bluez-dev">
+  <project path="build" name="tonyp/android_build" revision="cm-10.1-bluez-NEW">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="tonyp/android_manifest" remote="private" revision="cm-10.1-bluez-newbl" />
+  <project path="android" name="tonyp/android_manifest" remote="private" revision="cm-10.1-bluez-NEW" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="tonyp/android_bionic" revision="cm-10.1" />
@@ -219,7 +219,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="cm-10.1-bluez-dev" />
+  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="tony_rom" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -304,7 +304,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="tony_rom" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
