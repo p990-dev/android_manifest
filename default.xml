@@ -63,8 +63,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="p990-dev/android_external_bluetooth_bluedroid" revision="cm-10.1" />
-  <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_2.5" groups="default" />   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
@@ -368,7 +367,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" /> 
   <project path="system/core" name="tonyp/android_system_core" revision="cm-10.1-bluez" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
