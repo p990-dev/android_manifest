@@ -277,7 +277,8 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="tonyp/android_packages_apps_Bluetooth" revision="tony_rom" />
+  <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth_msm" name="androidarmv6/android_packages_apps_Bluetooth_msm" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -368,11 +369,11 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" /> 
+  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" revision="cm-10.1" />
   <project path="system/core" name="tonyp/android_system_core" revision="cm-10.1-bluez" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="tonyp/android_system_netd" revision="rootbeer" />
+  <project path="system/netd" name="tonyp/android_system_netd" revision="tony_rom" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
