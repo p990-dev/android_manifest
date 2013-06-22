@@ -223,7 +223,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="tony_rom" />
+  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="tony_rom2" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -277,7 +277,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth_msm" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth" name="tonyp/android_packages_apps_Bluetooth_msm" revision="tony_rom" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -308,7 +308,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="tony_rom" />
+  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="tony_rom2" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -384,10 +384,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="external/bluetooth/bluez" name="p990-dev/android_external_bluetooth_bluez" revision="cm-10.1-bluez" />
-  <project path="external/bluetooth/glib" name="p990-dev/android_external_bluetooth_glib" revision="cm-10.1-bluez"/>
-  <project path="external/bluetooth/hcidump" name="p990-dev/android_external_bluetooth_hcidump" revision="cm-10.1-bluez"/>
-
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_2.5" groups="default" />
+  
   <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.1-bluez-newbl" />
   <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.1-bluez-newbl-dev" />
   <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="cm-10.1" />
