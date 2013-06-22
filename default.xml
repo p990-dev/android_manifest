@@ -15,6 +15,10 @@
   <remote  name="bitbucket" 
            fetch="https://bitbucket.org" />  
 
+  <remote name="caf"
+           fetch="git://codeaurora.org"
+           review="codeaurora.org" />
+
   <default revision="refs/tags/cm-10.1.0-RC5"
            remote="github"
            sync-c="true"
