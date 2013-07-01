@@ -254,7 +254,7 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="tonyp/android_packages_apps_Bluetooth" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Bluetooth" name="tonyp/android_packages_apps_Bluetooth" revision="cm-10.1-bluez-NEW" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
