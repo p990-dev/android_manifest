@@ -390,7 +390,7 @@
 
   <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.2" />
   <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.2" />
-  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="cm-10.1" />
+  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="cm-10.2-newbl" />
   <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
 
   <!--<project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-10.1" />-->
