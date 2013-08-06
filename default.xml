@@ -388,8 +388,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.2" />
-  <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.2" />
+  <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.2-newbl" />
+  <project path="device/lge/star-common" name="tonyp/android_device_lge_star-common" revision="cm-10.2-newbl" />
   <project path="vendor/lge" name="tonyp/proprietary_vendor_lge.git" revision="cm-10.2-newbl" />
   <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
 
