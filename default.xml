@@ -15,7 +15,7 @@
   <remote  name="bitbucket" 
            fetch="https://bitbucket.org" /> 
 
-  <default revision="refs/heads/cm-10.2"
+  <default revision="refs/tags/cm-10.2-M1"
            remote="github"
            sync-c="true"
            sync-j="4" />
