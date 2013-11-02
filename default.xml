@@ -15,7 +15,7 @@
   <remote  name="bitbucket" 
            fetch="https://bitbucket.org" /> 
 
-  <default revision="refs/heads/cm-10.2"
+  <default revision="refs/tags/cm-10.2-M1"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -432,8 +432,4 @@
   <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
 
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-10.2" />
-
-  <!-- GCC 4.8 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="codefirex/prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="bitbucket" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="codefirex/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="bitbucket" revision="jb-devel" />
 </manifest>
