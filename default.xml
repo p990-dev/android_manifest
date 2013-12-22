@@ -427,8 +427,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.2-dev" />
-  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge" revision="cm-10.2-dev" />
+  <project path="device/lge/p990" name="tonyp/android_device_lge_p990" revision="cm-10.2-bcmdhd" />
+  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge" revision="cm-10.2-bcmdhd" />
   <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
 
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="TheROM43" />
