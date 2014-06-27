@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="tonyp" fetch="git://github.com/tonyp" />
+  <!-- remove cm repos -->
+  <remove-project name="build" />
+  <remove-project name="frameworks/base" />
+  <remove-project name="packages/apps/Settings" />
+  <remove-project name="vendor/cm" />
+  <remove-project name="vendor/lge" />
+  <!-- add my repos -->
+  <project path="build" name="build" remote="tonyp" revision="cm-11.0-tonyp" />
+  <project path="device/lge/p990" name="tonyp_device_lge_p990" remote="tonyp" revision="cm-11.0" />
+  <project path="frameworks/base" name="frameworks_base" remote="tonyp" revision="cm-11.0-tonyp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tonyp" revision="cm-11.0-tonyp" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="tonyp" revision="cm-11.0-tonyp" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tonyp" revision="cm-11.0-bcmdhd" />
+  <project path="vendor/google" name="android_vendor_google" remote="tonyp" revision="cm-11.0" />
+</manifest>
