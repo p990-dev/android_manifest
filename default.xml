@@ -500,4 +500,7 @@
   <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
 
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-11.0" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
 </manifest>
