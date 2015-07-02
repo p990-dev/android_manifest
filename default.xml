@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="tonyp/android_build" revision="cm-11.0-tonyp">
+  <project path="build" name="p990-dev/android_build" revision="cm-11.0-tonyp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -297,7 +297,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="tonyp/tonyp_frameworks_base" revision="cm-11.0-tonyp" />
+  <project path="frameworks/base" name="p990-dev/tonyp_frameworks_base" revision="cm-11.0-tonyp" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -392,7 +392,7 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="tonyp/tonyp_packages_apps_Settings" revision="cm-11.0-tonyp" />
+  <project path="packages/apps/Settings" name="p990-dev/tonyp_packages_apps_Settings" revision="cm-11.0-tonyp" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -481,10 +481,10 @@
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
-  <project path="system/netd" name="tonyp/android_system_netd" revision="cm-11.0" />
+  <project path="system/netd" name="p990-dev/android_system_netd" revision="cm-11.0" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="tonyp/android_system_vold" revision="cm-11.0" />
+  <project path="system/vold" name="p990-dev/android_system_vold" revision="cm-11.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -495,14 +495,14 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/cm" name="tonyp/android_vendor_cm" revision="cm-11.0-bcm4329" />
+  <project path="vendor/cm" name="p990-dev/android_vendor_cm" revision="cm-11.0-bcm4329" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
-  <project path="device/lge/p990" name="tonyp/tonyp_device_lge_p990" revision="cm-11.0-bcm4329" />
-  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge" revision="cm-11.0-bcm4329" />
+  <project path="device/lge/p990" name="p990-dev/tonyp_device_lge_p990" revision="cm-11.0-bcm4329" />
+  <project path="vendor/lge" name="p990-dev/proprietary_vendor_lge" revision="cm-11.0-bcm4329" />
   <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
 
-  <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-11.0" />
+  <project path="vendor/google" name="p990-dev/android_vendor_google" revision="cm-11.0" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
